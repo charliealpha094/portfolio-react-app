@@ -48,14 +48,30 @@ const Navbar = () => {
       </ul>
 
       {/*Social icons */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-[-7px]">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fff]">
             <a
               className="flex justify-between items-center w-full text-blue-600 bg-white"
               href="https://www.linkedin.com/in/carlos-amaral-785634239/"
             >
-              Linkedin <FaLinkedin size={32} />
+              Linkedin <FaLinkedin size={38} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a
+              className="flex justify-between items-center w-full text-blue-600 "
+              href="https://github.com/charliealpha094/"
+            >
+              Github <FaGithub size={38} />
+            </a>
+          </li>{" "}
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fff]">
+            <a
+              className="flex justify-between items-center w-full text-blue-600 bg-white"
+              href="https://www.linkedin.com/in/carlos-amaral-785634239/"
+            >
+              Email <HiOutlineMail size={38} />
             </a>
           </li>
         </ul>
