@@ -5,6 +5,7 @@ import logo from "../accessories/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleClick = () => setNav(!nav);
 
   return (
