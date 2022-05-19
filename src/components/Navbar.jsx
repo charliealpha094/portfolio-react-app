@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { FaTimes, FaBars } from "react-icons/fa";
+import { FaTimes, FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import logo from "../accessories/logo.png";
 
@@ -46,7 +48,18 @@ const Navbar = () => {
       </ul>
 
       {/*Social icons */}
-      <div className="hidden"></div>
+      <div className="flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ">
+            <a
+              className="flex justify-between items-center w-full text-blue-600"
+              href="https://www.linkedin.com/in/carlos-amaral-785634239/"
+            >
+              Linkedin <FaLinkedin size={26} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
