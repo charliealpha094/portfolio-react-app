@@ -50,7 +50,7 @@ const Navbar = () => {
       {/*Social icons */}
       <div className="flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
               className="flex justify-between items-center w-full text-blue-600"
               href="https://www.linkedin.com/in/carlos-amaral-785634239/"
