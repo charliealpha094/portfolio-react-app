@@ -6,6 +6,20 @@ const Work = () => {
       <div>
         <div>
           <p>Work</p>
+          <p>Some of my most recent works!!</p>
+        </div>
+
+        <div>
+          <div>
+            <div>
+              <span></span>
+              <div>
+                <a href="/">
+                  <button></button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
