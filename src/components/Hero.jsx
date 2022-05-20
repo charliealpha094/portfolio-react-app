@@ -16,8 +16,8 @@ const Hero = () => {
         </h1>
         <p className="py-4 max-w-[700px] ">
           I'm a front-end web-developer, currently developing mainly in ReactJS
-          while learning back-end technologies... Practicing programming on a
-          daily basis.
+          while learning back-end technologies... Enthusiastically practicing
+          programming on a daily basis.
         </p>
 
         <div className="flex flex-row space-x-4">
