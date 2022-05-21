@@ -1,6 +1,6 @@
 import React from "react";
 
-import Defensive from "./../accessories/Defensive.png";
+import Defensive from "./../accessories/Defensive2.png";
 
 const Work = () => {
   return (
@@ -11,7 +11,10 @@ const Work = () => {
           <p className="py-6">Some of my most recent works!!</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 m:grid-cols-3 gap-4">
+        <div
+          style={{ backgroundImage: `url(${Defensive})` }}
+          className="grid sm:grid-cols-2 m:grid-cols-3 gap-4"
+        >
           <div className="shadow-lg shadow-[#ecf0f3] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div>
