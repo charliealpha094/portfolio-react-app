@@ -1,7 +1,7 @@
 import React from "react";
 
 import Defensive from "./../accessories/Defensive2.png";
-import Weather from "./../accessories/Weatherapp.png";
+import Weather from "./../accessories/weather2.png";
 
 const Work = () => {
   return (
@@ -17,7 +17,7 @@ const Work = () => {
           {/* Grid Item*/}
           <div
             style={{ backgroundImage: `url(${Defensive})` }}
-            className="shadow-lg shadow-[#ecf0f3] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#ecf0f3] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-80">
@@ -41,10 +41,10 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${Weather})` }}
-            className="shadow-lg shadow-[#ecf0f3] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#ecf0f3] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 ease-in duration-300"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 ">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS API App
               </span>
