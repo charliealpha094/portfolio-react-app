@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 import logo from "../accessories/logo.png";
 
