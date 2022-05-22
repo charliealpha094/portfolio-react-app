@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 import logo from "../accessories/logo.png";
@@ -19,11 +18,31 @@ const Navbar = () => {
       {/* Desktop menu*/}
 
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/*Hamburger mobile*/}
@@ -64,14 +83,6 @@ const Navbar = () => {
               href="https://github.com/charliealpha094/"
             >
               Github <FaGithub size={38} />
-            </a>
-          </li>{" "}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fff]">
-            <a
-              className="flex justify-between items-center w-full text-blue-600 bg-white"
-              href="https://www.linkedin.com/in/carlos-amaral-785634239/"
-            >
-              Email <HiOutlineMail size={38} />
             </a>
           </li>
         </ul>

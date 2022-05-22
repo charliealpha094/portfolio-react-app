@@ -5,7 +5,11 @@ import Weather from "./../accessories/weather2.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-700 bg-[#fff]">
+    <div
+      name="work"
+      id="work"
+      className="w-full md:h-screen text-gray-700 bg-[#fff]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4">Work</p>
@@ -22,7 +26,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS Frontend
               </span>
 
               <div className="pt-8 text-center">

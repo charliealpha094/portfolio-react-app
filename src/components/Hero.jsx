@@ -27,21 +27,23 @@ const Hero = () => {
                 type="submit"
                 className="text-black group border-2 px-6 py-3 my-2 flex items-center bg-white hover:bg-blue-600 hover:border-orange-600"
               >
-                GitHub{" "}
+                GitHub
                 <span className="group-hover:rotate-90 duration-300"></span>
               </button>
             </form>
           </div>
           <div>
-            <button
-              type="submit"
-              className="text-black group border-2 px-6 py-3 my-2 flex items-center bg-white hover:bg-blue-600 hover:border-orange-600"
-            >
-              Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 " />
-              </span>
-            </button>
+            <a href="#work">
+              <button
+                type="submit"
+                className="text-black group border-2 px-6 py-3 my-2 flex items-center bg-white hover:bg-blue-600 hover:border-orange-600"
+              >
+                Work
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3 " />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
